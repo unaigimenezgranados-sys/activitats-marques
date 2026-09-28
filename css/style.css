@@ -4,4 +4,9 @@
 
     text-decoration: none;
     list-style: none;
+    font-size: 25px;
+}
+
+td, th {
+    text-align: center;
 }
