@@ -6,12 +6,16 @@
     list-style: none;
     font-size: 25px;
 }
-
-td, th {
-    text-align: center;
+/*
+p::before {
+    content: "Paragraf: ";
+}   
+    
+p::after {
+    content: ". ";
 }
+*/
+p::selection {
+    color: blue;
 
-table {
-    border: 1px solid black;
 }
-
